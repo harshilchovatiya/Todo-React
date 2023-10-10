@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/harshilchovatiya/Todo-React/static/css/main.d6b57b8b.css",
-    "main.js": "/harshilchovatiya/Todo-React/static/js/main.1868d280.js",
-    "index.html": "/harshilchovatiya/Todo-React/index.html",
-    "main.d6b57b8b.css.map": "/harshilchovatiya/Todo-React/static/css/main.d6b57b8b.css.map",
-    "main.1868d280.js.map": "/harshilchovatiya/Todo-React/static/js/main.1868d280.js.map"
+    "main.css": "/Todo-React/static/css/main.d6b57b8b.css",
+    "main.js": "/Todo-React/static/js/main.1868d280.js",
+    "index.html": "/Todo-React/index.html",
+    "main.d6b57b8b.css.map": "/Todo-React/static/css/main.d6b57b8b.css.map",
+    "main.1868d280.js.map": "/Todo-React/static/js/main.1868d280.js.map"
   },
   "entrypoints": [
     "static/css/main.d6b57b8b.css",
