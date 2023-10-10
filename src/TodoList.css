@@ -1,0 +1,160 @@
+.todo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(to right, #ffa8bd, #242acf);
+}
+
+.todo-box {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+     max-width: 80%;
+    text-align: center;
+    margin-top: 20px;
+}
+.todo-box ul{
+    padding: 0px;
+}
+
+h2 {
+    font-family: 'YourFont', sans-serif;
+    font-size: 24px;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 0;
+}
+
+h2::before,
+h2::after {
+    content: '';
+    display: block;
+    width: 30px;
+    height: 2px;
+    background-color: #333;
+    margin: 10px auto;
+}
+
+
+
+
+.task-item {
+    cursor: pointer;
+    padding: 5px;
+    margin: 5px;
+    list-style: none;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: background 0.3s ease;
+}
+
+.task-item.completed {
+    background: rgba(46, 204, 113, 0.2);
+    text-decoration: line-through;
+}
+
+
+button,
+input[type="text"] {
+    border-radius: 5px;
+    border: none;
+    padding: 8px 12px;
+    margin-right: 8px;
+    font-size: 14px;
+}
+
+button[type="submit"] {
+    background-color: #3498db;
+    /* Blue */
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #2980b9;
+}
+
+button.delete-button {
+    background-color: #e74c3c;
+    /* Red */
+    color: white;
+}
+
+button.delete-button:hover {
+    background-color: #c0392b;
+}
+
+.edit-button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    margin-right: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.edit-button:hover {
+    background-color: #2980b9;
+}
+
+.task-edit-input {
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin-right: 5px;
+}
+
+
+.save-button {
+    background-color: #27ae60;
+    color: #fff;
+    border: none;
+    margin-top: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.save-button:hover {
+    background-color: #219a52;
+}
+
+
+.notification {
+    position: fixed;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    width: 300px;
+    z-index: 9999;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+.notification.green {
+    background-color: rgba(46, 204, 113, 0.8);
+    /* Green */
+}
+
+.notification.red {
+    background-color: rgba(231, 76, 60, 0.8);
+    /* Red */
+}
+
+.notification.show {
+    opacity: 1;
+}
