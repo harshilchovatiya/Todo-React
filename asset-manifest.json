@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/harshilchovatiya/Todo-React/static/css/main.d6b57b8b.css",
+    "main.js": "/harshilchovatiya/Todo-React/static/js/main.1868d280.js",
+    "index.html": "/harshilchovatiya/Todo-React/index.html",
+    "main.d6b57b8b.css.map": "/harshilchovatiya/Todo-React/static/css/main.d6b57b8b.css.map",
+    "main.1868d280.js.map": "/harshilchovatiya/Todo-React/static/js/main.1868d280.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d6b57b8b.css",
+    "static/js/main.1868d280.js"
+  ]
+}
